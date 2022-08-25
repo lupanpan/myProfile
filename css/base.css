@@ -1,0 +1,47 @@
+:root {
+    --background: #f1f1f1;
+    --background: #c8a6a6;
+    --green: #009688;
+    --font-gray: #757575;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*css initialize*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldest, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+/*remove 3 pixel at img below */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/*clear float*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}

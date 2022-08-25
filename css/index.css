@@ -1,0 +1,227 @@
+body {
+    background-color: var(--background) !important;
+    color: #333;
+}
+
+/*common box and title*/
+.profile-box {
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.profile-box h3 {
+    font-size: 25px;
+    /*font-weight: normal;*/
+    color: var(--font-gray);
+    padding: 8px 0;
+}
+
+.profile-box h3 i {
+    color: var(--green);
+    margin-right: 16px;
+}
+
+.profile-box .list li {
+    padding: 16px 0;
+}
+
+.profile-box .list-title {
+    font-size: 16px;
+    color: var(--font-gray);
+    margin-bottom: 3px;
+}
+
+.profile-box .list-date {
+    font-size: 16px;
+    color: var(--green);
+    margin: 16px 0;
+}
+
+.profile-box .list-date i {
+    margin-right: 16px;
+}
+
+.profile-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 0;
+    padding: 0 8px;
+}
+
+/*left container*/
+.profile-left {
+    flex: 100%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+/*my information*/
+.my-information .my-photo {
+    max-width: 100%;
+}
+
+.my-information .my-contact {
+    margin: 5px 16px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 16px;
+}
+
+.my-information .my-contact .my-name {
+    margin: 15px 0;
+}
+
+.my-contact p {
+    margin: 10px 0;
+    font-size: 15px;
+    color: var(--font-gray);
+}
+
+.my-contact i {
+    color: var(--green);
+    margin-right: 15px;
+}
+
+.my-contact p span {
+    display: inline-block;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+
+/*my skill*/
+.my-skills {
+    padding: 16px;
+}
+
+.my-skills-title {
+    font-size: 18px;
+    color: var(--font-gray)
+}
+
+.my-skills-title i {
+    color: var(--green);
+    margin-right: 16px;
+}
+
+.my-skills-title span {
+    font-weight: 700;
+}
+
+.skills-list {
+    padding-top: 8px;
+}
+
+.skills-list .skill-item {
+    padding: 8px 0;
+}
+
+.skills-list .skill-item p {
+    padding-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--font-gray)
+}
+
+.skills-list .skill-item .skill-item-bar {
+    /*height: 18px;*/
+    border-radius: 16px;
+    background-color: var(--background);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.skills-list .skill-item .skill-item-bar .bar-process {
+    color: #fff;
+    height: 18px;
+    background-color: var(--green);
+    border-radius: 16px;
+    text-align: center;
+}
+
+/*right container*/
+.profile-right {
+    flex: 100%;
+    padding: 0 8px;
+    margin-bottom: 32px;
+}
+
+/*work experience*/
+.work-experience {
+    padding: 16px;
+}
+
+/*.work-experience h3 {
+    font-size: 30px;
+    !*font-weight: normal;*!
+    color: var(--font-gray);
+    padding: 8px 0;
+}
+
+.work-experience h3 i {
+    color: var(--green);
+    margin-right: 16px;
+}*/
+
+/*experience list*/
+/*.experience-list {*/
+/*}*/
+
+/*.experience-list li {*/
+/*    padding: 16px 0;*/
+/*}*/
+
+/*.experience-list .company-name {*/
+/*    font-size: 16px;*/
+/*    color: var(--font-gray);*/
+/*    margin-bottom: 3px;*/
+/*}*/
+
+.experience-list .job-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*.experience-list .job-year {*/
+/*    font-size: 16px;*/
+/*    color: var(--green);*/
+/*    margin: 16px 0;*/
+/*}*/
+
+/*.experience-list .job-year i {*/
+/*    margin-right: 16px;*/
+/*}*/
+
+.experience-list .job-details {
+    list-style: circle;
+    padding-left: 16px;
+}
+
+.experience-list .job-details li {
+    font-size: 15px;
+    /*line-height: 1.1;*/
+    padding: 4px 0;
+}
+
+/*education*/
+.my-education {
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.education-degree {
+    font-size: 15px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .profile-left {
+        flex: 30%;
+    }
+
+    .profile-right {
+        flex: 70%;
+    }
+}
+
+
